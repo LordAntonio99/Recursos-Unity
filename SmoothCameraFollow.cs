@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class SmoothCameraFollow : MonoBehaviour
 {
     // Primary target to follow, to get his position.
     [SerializeField] private Transform target;
